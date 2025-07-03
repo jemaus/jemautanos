@@ -1,0 +1,49 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f1ef;
+    background-image:#brasão.png ;
+    color: #ffffff;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner {
+    background-color: #532b19;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    max-width: 80%;
+}
+.profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+}
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-decoration: none;
+    background-color: #8B4513;
+    color: #ffffff;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.link:hover {
+    background-color: #A0522D;
+    transform: scale(1.03);
+}
+
+.link:active {
+    transform: scale(0.97);
+    background-color: #6E3B1E;
+}
